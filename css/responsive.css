@@ -47,7 +47,7 @@
   #business-plan {
     padding-bottom: 80px; }
   .feature-info {
-    width: 90%; }
+    /* width: 90%; */} 
   #features .feature-item {
     padding: 15px; }
   #features .feature-item h4 {
@@ -122,7 +122,7 @@
   #footer-Content .footer-logo img {
     padding-top: 0; }
   #footer-Content .copyright p {
-    color: #3ecf8e;
+    color: #3a3249;
     font-size: 14px; }
   .hero-area .intro-img {
     padding: 100px 0 0px; }
@@ -159,6 +159,9 @@
     width: 98%; } }
 
 @media only screen and (max-width: 767px) {
+  #footer-Content .copyright p{
+    color: #3a3249;
+    font-size: 12px; }
   .bg-inverse {
     background: #191c1e; }
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
@@ -284,7 +287,7 @@
   #blog .blog-item-wrapper {
     margin-bottom: 15px; }
   #footer-Content .copyright p {
-    color: #3ecf8e;
+    color: #3a3249;
     font-size: 12px; }
   #footer-Content ul.menu li a {
     color: #e2e2e2;

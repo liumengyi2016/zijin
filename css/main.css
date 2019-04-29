@@ -8,7 +8,7 @@
    GENERAL
    ========================================================================== */
 body {
-  font-family: '幼圆', sans-serif;
+  font-family: '微软雅黑', sans-serif;
   color: #a0a6ad;
   font-size: 14px;
   font-weight: 400;
@@ -19,7 +19,7 @@ html {
   overflow-x: hidden; }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   color: #5e629c;
   line-height: 26px;
   margin-bottom: 0; }
@@ -35,7 +35,7 @@ a {
   transition: all 0.3s ease-in-out; }
 
 h1, h2, h3, h4, h5 {
-  font-family: '幼圆', sans-serif;
+  font-family: '微软雅黑', sans-serif;
   font-size: 40px;
   font-weight: 400;
   color: #151948; }
@@ -88,7 +88,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .section-header .desc-text p {
   font-size: 18px;
-  color: #5e629c;
+  color: #151948;
   line-height: 26px;
   margin-bottom: 50; }
 
@@ -522,7 +522,7 @@ button:focus {
    About 
    ========================================================================== */
   #services #services-header{
-    font-family: '幼圆', sans-serif;
+    font-family: '微软雅黑', sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #151948;
@@ -559,6 +559,10 @@ button:focus {
     left: 0;
     right: 0;
     top: 30%; }
+  #services .services-item .icon img{
+    width: 50%;
+    margin: 26px auto;
+    }
   #services .services-item h4 {
     font-size: 20px;
     font-weight: 600;
@@ -572,8 +576,8 @@ button:focus {
 /* ==========================================================================
    business-plan Section 
    ========================================================================== */
-#business-plan {
-  padding-bottom: 130px; }
+  #business-plan {
+    padding-bottom: 130px; }
   #business-plan .container-fluid {
     padding-right: 30px;
     padding-left: 30px; }
@@ -584,7 +588,7 @@ button:focus {
       font-weight: 600;
       margin-bottom: 25px; }
     #business-plan .business-item-info p {
-      font-size: 16px;
+      font-size: 32px;
       margin-bottom: 20px; }
 
 /* ==========================================================================
@@ -611,7 +615,7 @@ button:focus {
       background: #e3fff2;
       width: 100px;
       height: 100px;
-      margin: 0px auto;
+      margin: 50px auto;
       margin-top: 0px;
       margin-right: auto;
       margin-bottom: 0px;
@@ -631,6 +635,9 @@ button:focus {
         left: 0;
         right: 0;
         top: 32%; }
+    #features .feature-info{
+      margin-left:130px;
+    }
     #features .feature-item h4 {
       font-size: 20px;
       font-weight: 600;
@@ -795,8 +802,7 @@ button:focus {
     #showcase .showcase-slider .screenshot-thumb p {
       color: #fff;
       font-size: 16px;
-      font-style: italic;
-      margin-bottom: 10px; }
+      margin: 10px auto; }
     #showcase .showcase-slider .screenshot-thumb h5 {
       font-size: 20px;
       color: #fff;
@@ -851,7 +857,7 @@ button:focus {
     position: absolute;
     width: 100%;
     z-index: 12;
-    top: 260px;
+    top: 160px;
     margin: 0px auto; }
   #testimonial #client-testimonial {
     background-color: #fff;
@@ -860,7 +866,8 @@ button:focus {
     -moz-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
     box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24); }
     #testimonial #client-testimonial .content-inner p {
-      font-size: 24px;
+      text-indent: 2em;
+      font-size: 20px;
       color: #5e629c;
       font-style: italic;
       line-height: 35px; }
@@ -1042,7 +1049,9 @@ button:focus {
   -webkit-transition: all .8s ease;
   transition: all .8s ease; }
   #team .single-team img {
-    width: 100%; }
+    width: 60%; 
+    display: block;
+    margin: 50px auto;}
   #team .single-team .team-social-icons {
     position: absolute;
     left: 0;
@@ -1417,11 +1426,11 @@ button:focus {
     padding-top: 30px;
     padding-bottom: 30px; }
     #footer-Content .copyright p {
-      color: #ffffff;
+      color: #3a3249;
       font-size: 18px; }
     #footer-Content .copyright a {
       text-decoration: underline;
-      color: #ddd; }
+      color: #3a3249; }
   #footer-Content .widget p {
     color: #e2e2e2;
     font-size: 16px;
