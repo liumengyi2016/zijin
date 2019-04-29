@@ -1431,6 +1431,9 @@ button:focus {
     #footer-Content .copyright a {
       text-decoration: underline;
       color: #3a3249; }
+    #footer-Content .copyright a:hover{
+      text-decoration: none;
+    }
   #footer-Content .widget p {
     color: #e2e2e2;
     font-size: 16px;
